@@ -8,6 +8,30 @@ The project is two files, about 540 lines in total, and a lot of jumper wires :D
 
 ---
 
+## A look at the build
+
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <img src="preview_assets/IMG_7925.jpg" alt="The assembled weather station on its wooden base" />
+      <br />
+      <sub><b>01 · The assembled station</b></sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="preview_assets/IMG_7924.jpg" alt="The OLED showing a live reading beside the status LEDs" />
+      <br />
+      <sub><b>02 · Live status display</b></sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="preview_assets/IMG_7923.jpg" alt="A close-up of the sensor, LEDs and connected boards" />
+      <br />
+      <sub><b>03 · Sensor and indicator hardware</b></sub>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## How it fits together [(made with this GitHub Doc :)](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams)
 
 ```mermaid
