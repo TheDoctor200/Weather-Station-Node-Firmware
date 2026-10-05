@@ -138,7 +138,7 @@ You can change both thresholds from the dashboard without reflashing.
 ### 1. Flash the ESP32
 
 1. Install the **ESP32 board package** in the Arduino IDE and select an ESP32-C3 board (for example *ESP32C3 Dev Module*). You may need to enable *USB CDC On Boot* to see serial output.
-2. Install these libraries with the Library Manager:
+2. Install these **libraries** with the Library Manager:
    - Adafruit BME280 Library
    - Adafruit Unified Sensor
    - Adafruit GFX Library
@@ -154,7 +154,7 @@ You can change both thresholds from the dashboard without reflashing.
 ### 2. Flash the Pico
 
 1. Put **MicroPython** on the Pico. The `neopixel` module is built in.
-2. Open `main.py` in [Thonny](https://thonny.org/) or use VSCode with extension for RPI Pico and choose **File → Save As → Raspberry Pi Pico → `main.py`**.
+2. Open `main.py` in [Thonny](https://thonny.org/) or use **VSCode with extension for RPI Pico** and choose **File → Save As → Raspberry Pi Pico → `main.py`**.
 3. Reset the board. It starts automatically from then on.
 
 ### 3. Open the dashboard
@@ -201,7 +201,7 @@ Example `/data` response:
 
 ## A few honest notes
 
-- The dashboard has **no authentication**, so anyone on the same network can change the thresholds. That's fine on a desk, but I wouldn't expose it to the internet, run it local only!
+- The dashboard has **no authentication**, so anyone on the same network can change the thresholds. That's fine on a desk, but I wouldn't expose it to the internet, run it **local only**!
 - At boot the ESP32 waits up to 20 seconds for Wi-Fi before it starts the main loop (this is also displayed on the OLED Screen).
 - If the sensor is missing, `/data` reports zeros rather than errors, and nothing is sent to the Pico. The Pico then shows a lost link (fast blue blinking).
 
@@ -210,8 +210,7 @@ Example `/data` response:
 - [ ] Log readings and draw a history graph on the dashboard
 - [ ] Also flag humidity levels, not only temperature
 - [ ] Put a password on the threshold form
-- [ ] A 3D-printed enclosure so it's not a tangle of wires
-
+      
 ---
 
 <p align="center">
