@@ -93,6 +93,7 @@ You can change both thresholds from the dashboard without reflashing.
 [Link Resistors](https://de.aliexpress.com/w/wholesale-220–330-Ω-resistors.html)
 - 1 × WS2812-style RGB LED (the Orpheus Pico from Hackclub has one on board at GP24) 
 - Wires, and ideally a breadboard
+- confirmal silicon coating for protection
 
 ---
 
@@ -123,6 +124,7 @@ You can change both thresholds from the dashboard without reflashing.
 
 > [!IMPORTANT]
 > **Connect the two boards' grounds.** The UART signal needs a common reference even when each board has its own power supply. Without it you get garbage on the line or nothing at all, and the blue LED blinks fast.
+
 > [!IMPORTANT] 
 > **Use a USB-C Splitter cable one female to 2 male for power supply!**
 
