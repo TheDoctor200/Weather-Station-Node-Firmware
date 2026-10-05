@@ -60,13 +60,14 @@ You can change both thresholds from the dashboard without reflashing.
 
 ## Parts list
 
-- ESP32-C3 Super Mini (Tenstar)
-- Orpheus Pico (or any RP2040 board, if you adjust the pins)
-- BME280 breakout (I²C)
-- SSD1306 OLED, 128×32, I²C
-- 4 × LEDs (blue, red, yellow, green) with 220–330 Ω resistors
-- 1 × WS2812-style RGB LED (the Orpheus Pico from Hackclub has one on board at GP24)
-- 1 × push button
+- ESP32-C3 Super Mini (Tenstar) [Link](https://www.aliexpress.com/w/wholesale-esp32-c3-super-mini.html)
+- Orpheus Pico (or any RP2040 board, if you adjust the pins) [Link / Get from Hackclub](https://stardance.hackclub.com/shop/items/138)
+- BME280 breakout (I²C) [Link](https://www.aliexpress.com/w/wholesale-bme280-sensor.html)
+- SSD1306 OLED, 128×32, I²C [Link](https://de.aliexpress.com/w/wholesale-0%2C91-Zoll-OLED%2525252dDisplay.html)
+- 4 × LEDs (blue, red, yellow, green) with 220–330 Ω resistors 
+[Link LEDs](https://de.aliexpress.com/w/wholesale-LED%2525252dDioden%2525252dSet-.html)
+[Link Resistors](https://de.aliexpress.com/w/wholesale-220–330-Ω-resistors.html)
+- 1 × WS2812-style RGB LED (the Orpheus Pico from Hackclub has one on board at GP24) 
 - Wires, and ideally a breadboard
 
 ---
@@ -127,7 +128,7 @@ You can change both thresholds from the dashboard without reflashing.
 ### 2. Flash the Pico
 
 1. Put **MicroPython** on the Pico. The `neopixel` module is built in.
-2. Open `main.py` in [Thonny](https://thonny.org/) and choose **File → Save As → Raspberry Pi Pico → `main.py`**.
+2. Open `main.py` in [Thonny](https://thonny.org/) or use VSCode with extension for RPI Pico and choose **File → Save As → Raspberry Pi Pico → `main.py`**.
 3. Reset the board. It starts automatically from then on.
 
 ### 3. Open the dashboard
