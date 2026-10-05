@@ -212,8 +212,3 @@ Example `/data` response:
 - [ ] Put a password on the threshold form
       
 ---
-
-<p align="center">
-  Built one jumper wire at a time 🔧<br/>
-  <sub>If you build one too, I'd love to hear how it went.</sub>
-</p>
